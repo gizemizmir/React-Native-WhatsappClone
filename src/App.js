@@ -18,9 +18,9 @@ import Icon from 'react-native-vector-icons/dist/FontAwesome';
 import {NavigationContainer} from '@react-navigation/native'
 import {createStackNavigator} from '@react-navigation/stack'
 
-import ChatScreen from './src/screens/chat';
-import HomeScreen from './src/screens/home';
-import HomeHeader from './src/components/homeHeader';
+import ChatScreen from './screens/chat';
+import HomeScreen from './screens/home';
+import HomeHeader from './components/homeHeader';
 
 const StackNav = createStackNavigator();
 
