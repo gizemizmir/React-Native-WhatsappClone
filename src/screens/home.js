@@ -7,11 +7,10 @@ const HomeScreen = () => {
   const {navigate, goBack} = useNavigation();
   return (
     <View style={styles.imageContainer}>
-     <Text>Home</Text>
      <Pressable onPress={() => {
-        navigate('Chat', { paramName: 'Gizem' })
+        navigate('Chat', { paramName: 'Hasan', image: 'https://picsum.photos/300/300' })
      }}>
-         <Text>Zeynap bastık</Text>
+         <Text>Zeynep bastık</Text>
      </Pressable>
     </View>
   );

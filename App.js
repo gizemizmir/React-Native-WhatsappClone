@@ -48,11 +48,6 @@ const App = () => {
           headerStyle: {height: 130}
         }}/>
         <StackNav.Screen name='Chat' component={ChatScreen} options={{
-          headerTitle: () => (
-            <View>
-              <Text>Zeynep</Text>
-            </View>
-          ),
           headerStyle: {height: 90}
         }}/>
       </StackNav.Navigator>
