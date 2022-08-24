@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "receiver": {
+            "firstName": "Zeynep",
+            "lastName": "Bastık"
+        },
+        "avatar": "https://picsum.photos/300/300",
+        "messages": [
+            {
+                "status": "receive",
+                "text": "Nasılsın?",
+                "date": "2022-08-20T12:14:23.000Z"        
+            },
+            {
+                "status": "send",
+                "text": "İyiyim teşekkürler.",
+                "date": "2022-08-20T12:15:03.000Z"        
+            },
+            {
+                "status": "send",
+                "text": "sen nasılsın?",
+                "date": "2022-08-20T12:15:43.000Z"        
+            },
+            {
+                "status": "receive",
+                "text": "Ben de iyiyim.",
+                "date": "2022-08-20T12:18:00.000Z"        
+            }
+        ]
+      },
+    {
+        "id": 2,
+        "receiver": {
+            "firstName": "Cem",
+            "lastName": "Adrian"
+        },
+        "avatar": "https://picsum.photos/300/300",
+        "messages": [
+            {
+                "status": "receive",
+                "text": "Nasılsın?",
+                "date": "2022-08-20T12:14:23.000Z"        
+            },
+            {
+                "status": "send",
+                "text": "İyiyim teşekkürler.",
+                "date": "2022-08-20T12:15:03.000Z"        
+            },
+            {
+                "status": "send",
+                "text": "sen nasılsın?",
+                "date": "2022-08-20T12:15:43.000Z"        
+            },
+            {
+                "status": "receive",
+                "text": "Ben de iyiyim.",
+                "date": "2022-08-20T12:18:00.000Z"        
+            }
+        ]
+      },
+    {
+        "id": 3,
+        "receiver": {
+            "firstName": "Sena",
+            "lastName": "Şener"
+        },
+        "avatar": "https://picsum.photos/300/300",
+        "messages": [
+            {
+                "status": "receive",
+                "text": "Nasılsın?",
+                "date": "2022-08-20T12:14:23.000Z"        
+            },
+            {
+                "status": "send",
+                "text": "İyiyim teşekkürler.",
+                "date": "2022-08-20T12:15:03.000Z"        
+            },
+            {
+                "status": "send",
+                "text": "sen nasılsın?",
+                "date": "2022-08-20T12:15:43.000Z"        
+            },
+            {
+                "status": "receive",
+                "text": "Ben de iyiyim.",
+                "date": "2022-08-20T12:18:00.000Z"        
+            }
+        ]
+      }
+]
