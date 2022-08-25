@@ -9,12 +9,7 @@ import 'react-native-gesture-handler';
  */
 
 import React from 'react';
-import {
-  StyleSheet,
-  View,
-  Text,
-} from 'react-native';
-import Icon from 'react-native-vector-icons/dist/FontAwesome';
+
 import {NavigationContainer} from '@react-navigation/native'
 import {createStackNavigator} from '@react-navigation/stack'
 
@@ -30,15 +25,9 @@ const App = () => {
       <StackNav.Navigator
         screenOptions={{
             headerBackTitleVisible: false,
-            tabBarStyle: {
-                backgroundColor: '#F6F6F6',
-                borderTopColor: '#A6A6AA'
-            },
             headerStyle: {
                 backgroundColor: '#F6F6F6',
-            },
-            tabBarActiveTintColor: '#007AFF',
-            tabBarInactiveTintColor: '#8D8D8F'
+            }
         }}
       >
         <StackNav.Screen name='Home' component={HomeScreen} options={{
@@ -54,9 +43,5 @@ const App = () => {
     </NavigationContainer>
   );
 };
-
-const styles = StyleSheet.create({
-  sectionContainer: {},
-});
 
 export default App;

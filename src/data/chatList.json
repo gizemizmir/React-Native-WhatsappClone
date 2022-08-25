@@ -5,27 +5,32 @@
             "firstName": "Zeynep",
             "lastName": "Bastık"
         },
-        "avatar": "https://picsum.photos/300/300",
+        "avatar": "https://i.pravatar.cc/300?img=36",
         "messages": [
             {
                 "status": "receive",
                 "text": "Nasılsın?",
-                "date": "2022-08-20T12:14:23.000Z"        
+                "date": "12:14"        
             },
             {
                 "status": "send",
                 "text": "İyiyim teşekkürler.",
-                "date": "2022-08-20T12:15:03.000Z"        
+                "date": "12:15"        
             },
             {
                 "status": "send",
                 "text": "sen nasılsın?",
-                "date": "2022-08-20T12:15:43.000Z"        
+                "date": "12:15"        
             },
             {
                 "status": "receive",
                 "text": "Ben de iyiyim.",
-                "date": "2022-08-20T12:18:00.000Z"        
+                "date": "12:18"        
+            },
+            {
+                "status": "send",
+                "text": "çok güzel",
+                "date": "12:20"        
             }
         ]
       },
@@ -35,7 +40,7 @@
             "firstName": "Cem",
             "lastName": "Adrian"
         },
-        "avatar": "https://picsum.photos/300/300",
+        "avatar": "https://i.pravatar.cc/300?img=69",
         "messages": [
             {
                 "status": "receive",
@@ -54,8 +59,8 @@
             },
             {
                 "status": "receive",
-                "text": "Ben de iyiyim.",
-                "date": "2022-08-20T12:18:00.000Z"        
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "date": "20.08.2022"        
             }
         ]
       },
@@ -65,7 +70,7 @@
             "firstName": "Sena",
             "lastName": "Şener"
         },
-        "avatar": "https://picsum.photos/300/300",
+        "avatar": "https://i.pravatar.cc/300?img=32",
         "messages": [
             {
                 "status": "receive",
@@ -85,7 +90,7 @@
             {
                 "status": "receive",
                 "text": "Ben de iyiyim.",
-                "date": "2022-08-20T12:18:00.000Z"        
+                "date": "15.08.2022"        
             }
         ]
       }

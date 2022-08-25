@@ -2,15 +2,15 @@ import React from 'react';
 import {View, StyleSheet, Text, Image} from 'react-native';
 import Icon from 'react-native-vector-icons/dist/Feather';
 
-const chatHeader = ({name, profile}) => {
+const chatHeader = ({userName, userProfile}) => {
   return (
     <View style={styles.header}>
         <View style={styles.leftHeader}>
             <Image style={styles.userImage} 
                 source={{
-                    uri: profile,
+                    uri: userProfile,
                 }} />
-            <Text style={styles.title}>{name}</Text>
+            <Text style={styles.title}>{userName}</Text>
         </View>
         <View style={styles.rightHeader}>
             <Icon style={styles.icon} name="video" size={20} color="#2385E1" />
