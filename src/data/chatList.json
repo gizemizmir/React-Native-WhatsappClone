@@ -45,22 +45,27 @@
             {
                 "status": "receive",
                 "text": "Nasılsın?",
-                "date": "2022-08-20T12:14:23.000Z"        
+                "date": "12:20"        
             },
             {
                 "status": "send",
                 "text": "İyiyim teşekkürler.",
-                "date": "2022-08-20T12:15:03.000Z"        
+                "date": "12:20"        
             },
             {
                 "status": "send",
                 "text": "sen nasılsın?",
-                "date": "2022-08-20T12:15:43.000Z"        
+                "date": "12:20"        
             },
             {
                 "status": "receive",
                 "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-                "date": "20.08.2022"        
+                "date": "12:20"        
+            },
+            {
+                "status": "send",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled  ",
+                "date": "12:20"        
             }
         ]
       },
@@ -75,22 +80,22 @@
             {
                 "status": "receive",
                 "text": "Nasılsın?",
-                "date": "2022-08-20T12:14:23.000Z"        
+                "date": "12:20"        
             },
             {
                 "status": "send",
                 "text": "İyiyim teşekkürler.",
-                "date": "2022-08-20T12:15:03.000Z"        
+                "date": "12:20"        
             },
             {
                 "status": "send",
                 "text": "sen nasılsın?",
-                "date": "2022-08-20T12:15:43.000Z"        
+                "date": "12:20"        
             },
             {
                 "status": "receive",
                 "text": "Ben de iyiyim.",
-                "date": "15.08.2022"        
+                "date": "12:20"        
             }
         ]
       }
