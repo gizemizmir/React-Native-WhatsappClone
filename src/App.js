@@ -15,7 +15,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 import ChatScreen from './screens/chat';
 import HomeScreen from './screens/home';
-import HomeHeader from './components/homeHeader';
+import HomeHeader from './components/HomeHeader';
 
 const StackNav = createStackNavigator();
 

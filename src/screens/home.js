@@ -18,6 +18,7 @@ const HomeScreen = () => {
       </View>
       <View style={styles.chatContainer}>
         <FlatList
+          showsVerticalScrollIndicator={false}
           keyExtractor={keyExtractorChat}
           data={chat_data}
           renderItem={renderChat}
@@ -30,6 +31,8 @@ const HomeScreen = () => {
 const styles = StyleSheet.create({
   homeContainer: {
     backgroundColor: '#FFF',
+    height: '100%',
+    paddingBottom: 45,
   },
   chatContainer: {
     backgroundColor: '#FFF',

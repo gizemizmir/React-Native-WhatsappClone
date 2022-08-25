@@ -4,10 +4,12 @@ import {useNavigation} from '@react-navigation/native';
 import styles from './ChatItem.style';
 import Icon from 'react-native-vector-icons/dist/Ionicons';
 
+// ChatItem is used to list the chats on the Home Screen
 const Chat = ({chat}) => {
   const {navigate} = useNavigation();
   const name = chat.receiver.firstName + ' ' + chat.receiver.lastName;
   const lastMessage = chat.messages[chat.messages.length - 1];
+
   return (
     <View style={styles.chatContainer}>
       <Pressable
@@ -29,7 +31,7 @@ const Chat = ({chat}) => {
             ) : (
               ''
             )}
-            {lastMessage.text}
+            {' ' + lastMessage.text}
           </Text>
         </View>
       </Pressable>
