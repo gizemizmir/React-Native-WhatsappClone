@@ -5,7 +5,7 @@ import styles from './ChatItem.style';
 import Icon from 'react-native-vector-icons/dist/Ionicons';
 
 const Chat = ({chat}) => {
-  const {navigate, goBack} = useNavigation();
+  const {navigate} = useNavigation();
   const name = chat.receiver.firstName + ' ' + chat.receiver.lastName;
   const lastMessage = chat.messages[chat.messages.length - 1];
   return (

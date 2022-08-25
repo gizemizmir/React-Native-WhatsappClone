@@ -1,21 +1,24 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {View, StyleSheet, Text} from 'react-native';
 import ChatHeader from '../components/chatHeader';
-import chat_data from '../data/chatList.json'
+import chat_data from '../data/chatList.json';
 
-const ChatScreen = ({ route, navigation }) => {
-    const { userID } = route.params;
-    const user = chat_data.find(item => item.id === userID);
-    const userName = user.receiver.firstName + ' ' + user.receiver.lastName
+const ChatScreen = ({route, navigation}) => {
+  const {userID} = route.params;
+  const user = chat_data.find(item => item.id === userID);
+  const userName = user.receiver.firstName + ' ' + user.receiver.lastName;
 
-    React.useLayoutEffect(() => {
-      navigation.setOptions({
-        headerTitle: () => <ChatHeader userName={userName} userProfile={user.avatar} />
-      });
-    }, [navigation]);
+  useEffect(() => {
+    navigation.setOptions({
+      headerTitle: () => (
+        <ChatHeader userName={userName} userProfile={user.avatar} />
+      ),
+    });
+  }, [navigation, userName, user.avatar]);
+  
   return (
     <View style={styles.imageContainer}>
-     <Text>{user.messages[user.messages.length -1].text}</Text>
+      <Text>{user.messages[user.messages.length - 1].text}</Text>
     </View>
   );
 };

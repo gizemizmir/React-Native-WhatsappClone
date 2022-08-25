@@ -16,9 +16,9 @@ export default StyleSheet.create({
   },
   chatInfo: {
     width: '100%',
-    display : 'flex',
+    display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
   },
   profileImageContainer: {
     width: '17%',
