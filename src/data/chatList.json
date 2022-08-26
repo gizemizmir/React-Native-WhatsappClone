@@ -1,102 +1,627 @@
 [
-    {
-        "id": 1,
-        "receiver": {
-            "firstName": "Zeynep",
-            "lastName": "Bastık"
-        },
-        "avatar": "https://i.pravatar.cc/300?img=36",
-        "messages": [
-            {
-                "status": "receive",
-                "text": "Nasılsın?",
-                "date": "12:14"        
-            },
-            {
-                "status": "send",
-                "text": "İyiyim teşekkürler.",
-                "date": "12:15"        
-            },
-            {
-                "status": "send",
-                "text": "sen nasılsın?",
-                "date": "12:15"        
-            },
-            {
-                "status": "receive",
-                "text": "Ben de iyiyim.",
-                "date": "12:18"        
-            },
-            {
-                "status": "send",
-                "text": "çok güzel",
-                "date": "12:20"        
-            }
-        ]
+  {
+    "id": 1,
+    "receiver": {
+      "firstName": "Camron",
+      "lastName": "Mccarthy"
+    },
+    "avatar": "https://i.pravatar.cc/300?img=36",
+    "messages": [
+      {
+        "status": "receive",
+        "text": "Nasılsın?",
+        "date": "12:14"
       },
-    {
-        "id": 2,
-        "receiver": {
-            "firstName": "Cem",
-            "lastName": "Adrian"
-        },
-        "avatar": "https://i.pravatar.cc/300?img=69",
-        "messages": [
-            {
-                "status": "receive",
-                "text": "Nasılsın?",
-                "date": "12:20"        
-            },
-            {
-                "status": "send",
-                "text": "İyiyim teşekkürler.",
-                "date": "12:20"        
-            },
-            {
-                "status": "send",
-                "text": "sen nasılsın?",
-                "date": "12:20"        
-            },
-            {
-                "status": "receive",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-                "date": "12:20"        
-            },
-            {
-                "status": "send",
-                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled  ",
-                "date": "12:20"        
-            }
-        ]
+      {
+        "status": "send",
+        "text": "İyiyim teşekkürler.",
+        "date": "12:15"
       },
-    {
-        "id": 3,
-        "receiver": {
-            "firstName": "Sena",
-            "lastName": "Şener"
-        },
-        "avatar": "https://i.pravatar.cc/300?img=32",
-        "messages": [
-            {
-                "status": "receive",
-                "text": "Nasılsın?",
-                "date": "12:20"        
-            },
-            {
-                "status": "send",
-                "text": "İyiyim teşekkürler.",
-                "date": "12:20"        
-            },
-            {
-                "status": "send",
-                "text": "sen nasılsın?",
-                "date": "12:20"        
-            },
-            {
-                "status": "receive",
-                "text": "Ben de iyiyim.",
-                "date": "12:20"        
-            }
-        ]
+      {
+        "status": "send",
+        "text": "sen nasılsın?",
+        "date": "12:15"
+      },
+      {
+        "status": "receive",
+        "text": "Ben de iyiyim.",
+        "date": "12:18"
+      },
+      {
+        "status": "send",
+        "text": "çok güzel",
+        "date": "12:20"
+      },
+      {
+        "status": "receive",
+        "text": "Dünkü görüşmen nasıl geçti?",
+        "date": "12:28"
+      },
+      {
+        "status": "send",
+        "text": "Kötüydü o yüzden çok konuşmak istemiyorum. Yeni single çıktığında planlamalara karar vericez.",
+        "date": "12:30"
+      },
+      {
+        "status": "send",
+        "text": "Sen neler yapıyorsun?",
+        "date": "12:31"
+      },
+      {
+        "status": "receive",
+        "text": "Hala Londra'dayım. Yakında geleceğim, mutlaka görüşelim.",
+        "date": "12:33"
+      },
+      {
+        "status": "send",
+        "text": "Neeeeee !!!",
+        "date": "12:35"
+      },
+      {
+        "status": "send",
+        "text": "Gerçekten mii? Çok sevindim. Mutlaka haberleşelim ",
+        "date": "12:35"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:20"
+      },
+      {
+        "status": "send",
+        "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "date": "20:21"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "date": "20:23"
+      },
+      {
+        "status": "send",
+        "text": "Lorem ipsum dolor sit amet.",
+        "date": "20:25"
+      },
+      {
+        "status": "receive",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:26"
+      },
+      {
+        "status": "send",
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "date": "20:28"
+      },
+      {
+        "status": "receive",
+        "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:30"
+      },
+      {
+        "status": "send",
+        "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "date": "20:31"
       }
+    ]
+  },
+  {
+    "id": 2,
+    "receiver": {
+      "firstName": "Lewis",
+      "lastName": "Cope"
+    },
+    "avatar": "https://i.pravatar.cc/300?img=69",
+    "messages": [
+      {
+        "status": "receive",
+        "text": "Nasılsın?",
+        "date": "20:08"
+      },
+      {
+        "status": "send",
+        "text": "İyiyim teşekkürler.",
+        "date": "20:10"
+      },
+      {
+        "status": "send",
+        "text": "sen nasılsın?",
+        "date": "20:10"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "date": "20:20"
+      },
+      {
+        "status": "send",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled  ",
+        "date": "20:21"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "date": "20:23"
+      },
+      {
+        "status": "send",
+        "text": "Lorem Ipsum is simply.",
+        "date": "20:25"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "date": "20:26"
+      },
+      {
+        "status": "send",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled  ",
+        "date": "20:28"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "date": "20:30"
+      },
+      {
+        "status": "send",
+        "text": "Lorem Ipsum is simply.",
+        "date": "20:31"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "receiver": {
+      "firstName": "Yvette",
+      "lastName": "Lamb"
+    },
+    "avatar": "https://i.pravatar.cc/300?img=32",
+    "messages": [
+      {
+        "status": "receive",
+        "text": "Nasılsın?",
+        "date": "12:20"
+      },
+      {
+        "status": "send",
+        "text": "İyiyim teşekkürler.",
+        "date": "12:20"
+      },
+      {
+        "status": "send",
+        "text": "sen nasılsın?",
+        "date": "12:20"
+      },
+      {
+        "status": "receive",
+        "text": "Ben de iyiyim.",
+        "date": "12:20"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:20"
+      },
+      {
+        "status": "send",
+        "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "date": "20:21"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "date": "20:23"
+      },
+      {
+        "status": "send",
+        "text": "Lorem ipsum dolor sit amet.",
+        "date": "20:25"
+      },
+      {
+        "status": "receive",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:26"
+      },
+      {
+        "status": "send",
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "date": "20:28"
+      },
+      {
+        "status": "receive",
+        "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:30"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "receiver": {
+      "firstName": "Kellan",
+      "lastName": "Hamilton"
+    },
+    "avatar": "https://i.pravatar.cc/300?img=34",
+    "messages": [
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:20"
+      },
+      {
+        "status": "send",
+        "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "date": "20:21"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "date": "20:23"
+      },
+      {
+        "status": "send",
+        "text": "Lorem ipsum dolor sit amet.",
+        "date": "20:25"
+      },
+      {
+        "status": "receive",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:26"
+      },
+      {
+        "status": "send",
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "date": "20:28"
+      },
+      {
+        "status": "receive",
+        "text": "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:30"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "receiver": {
+      "firstName": "Alia",
+      "lastName": "Gunn"
+    },
+    "avatar": "https://i.pravatar.cc/300?img=24",
+    "messages": [
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:20"
+      },
+      {
+        "status": "send",
+        "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "date": "20:21"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "date": "20:23"
+      },
+      {
+        "status": "send",
+        "text": "Lorem ipsum dolor sit amet.",
+        "date": "20:25"
+      },
+      {
+        "status": "receive",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:26"
+      },
+      {
+        "status": "send",
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "date": "20:28"
+      },
+      {
+        "status": "receive",
+        "text": "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:30"
+      },
+      {
+        "status": "send",
+        "text": "Lorem ipsum dolor sit amet.",
+        "date": "20:25"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "receiver": {
+      "firstName": "Daanyaal",
+      "lastName": "Ayala"
+    },
+    "avatar": "https://i.pravatar.cc/300?img=20",
+    "messages": [
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:20"
+      },
+      {
+        "status": "send",
+        "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "date": "20:21"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "date": "20:23"
+      },
+      {
+        "status": "send",
+        "text": "Lorem ipsum dolor sit amet.",
+        "date": "20:25"
+      },
+      {
+        "status": "receive",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:26"
+      },
+      {
+        "status": "send",
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "date": "20:28"
+      },
+      {
+        "status": "receive",
+        "text": "deserunt mollit anim id est laborum.",
+        "date": "20:30"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "receiver": {
+      "firstName": "Osama",
+      "lastName": "Mathis"
+    },
+    "avatar": "https://i.pravatar.cc/300?img=21",
+    "messages": [
+      {
+        "status": "receive",
+        "text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:20"
+      },
+      {
+        "status": "send",
+        "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "date": "20:21"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "date": "20:23"
+      },
+      {
+        "status": "send",
+        "text": "Lorem ipsum dolor sit amet.",
+        "date": "20:25"
+      },
+      {
+        "status": "receive",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:26"
+      },
+      {
+        "status": "send",
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "date": "20:28"
+      },
+      {
+        "status": "receive",
+        "text": "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:30"
+      },
+      {
+        "status": "send",
+        "text": "Lorem ipsum dolor sit amet.",
+        "date": "20:25"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "receiver": {
+      "firstName": "Wanda",
+      "lastName": "Worthington"
+    },
+    "avatar": "https://i.pravatar.cc/300?img=14",
+    "messages": [
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:20"
+      },
+      {
+        "status": "send",
+        "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "date": "20:21"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "date": "20:23"
+      },
+      {
+        "status": "send",
+        "text": "Lorem ipsum dolor sit amet.",
+        "date": "20:25"
+      },
+      {
+        "status": "receive",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:26"
+      },
+      {
+        "status": "send",
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "date": "20:28"
+      },
+      {
+        "status": "receive",
+        "text": "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:30"
+      },
+      {
+        "status": "send",
+        "text": "totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "date": "20:25"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "receiver": {
+      "firstName": "Claire",
+      "lastName": "Benson"
+    },
+    "avatar": "https://i.pravatar.cc/300?img=18",
+    "messages": [
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:20"
+      },
+      {
+        "status": "send",
+        "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "date": "20:21"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "date": "20:23"
+      },
+      {
+        "status": "send",
+        "text": "Lorem ipsum dolor sit amet.",
+        "date": "20:25"
+      },
+      {
+        "status": "receive",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:26"
+      },
+      {
+        "status": "send",
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "date": "20:28"
+      },
+      {
+        "status": "receive",
+        "text": "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:30"
+      },
+      {
+        "status": "send",
+        "text": "veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "date": "20:25"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "receiver": {
+      "firstName": "Florence",
+      "lastName": "Duran"
+    },
+    "avatar": "https://i.pravatar.cc/300?img=17",
+    "messages": [
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:20"
+      },
+      {
+        "status": "send",
+        "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "date": "20:21"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "date": "20:23"
+      },
+      {
+        "status": "send",
+        "text": "Lorem ipsum dolor sit amet.",
+        "date": "20:25"
+      },
+      {
+        "status": "receive",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:26"
+      },
+      {
+        "status": "send",
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "date": "20:28"
+      },
+      {
+        "status": "receive",
+        "text": "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:30"
+      },
+      {
+        "status": "send",
+        "text": "illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "date": "20:25"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "receiver": {
+      "firstName": "Robbie",
+      "lastName": "Witt"
+    },
+    "avatar": "https://i.pravatar.cc/300?img=11",
+    "messages": [
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:20"
+      },
+      {
+        "status": "send",
+        "text": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+        "date": "20:21"
+      },
+      {
+        "status": "receive",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "date": "20:23"
+      },
+      {
+        "status": "send",
+        "text": "Lorem ipsum dolor sit amet.",
+        "date": "20:25"
+      },
+      {
+        "status": "receive",
+        "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:26"
+      },
+      {
+        "status": "send",
+        "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+        "date": "20:28"
+      },
+      {
+        "status": "receive",
+        "text": "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": "20:30"
+      },
+      {
+        "status": "send",
+        "text": "illo inventore veritatis.",
+        "date": "20:25"
+      }
+    ]
+  }
 ]
