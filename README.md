@@ -10,12 +10,23 @@ TR - Bu proje Patika.dev 'in düzenlediği "Akbank React Native Bootcamp" kapsam
 ## Screenshot APP
 
 <div style="display:flex; flex-direction:row; margin-right:20px;">
-<img src="src/assets/homescreen.png" width="300" style="margin-right:20px;"/>
+<img src="src/assets/homescreen.png" width="300" style="margin-right:30px;"/>
 <img src="src/assets/chatscreen.png" width="300"/>
 </div>
 <br/>
 <br/>
 
+
+## Installation
+
+```
+npm install
+npm run ios
+npm run android
+```
+
+<br/>
+<br/>
 
 ## Technologies
 
